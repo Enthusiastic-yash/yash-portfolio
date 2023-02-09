@@ -102,7 +102,7 @@ export default {
             "I created this Facebook login landing page with HTML, CSS, and javascript",
           tools: ["Html", "css", "javascript"],
           image: "facebook.png",
-          link: "https://yash-social-app.netlify.app/",
+          link: "https://yash-fb-landing-page.netlify.app/",
         },
       ],
     };
