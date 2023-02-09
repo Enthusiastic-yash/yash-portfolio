@@ -45,17 +45,24 @@ export default {
           title: "weather app",
           description:
             "I created this website with the help of vue.js to get the weather of any city around the world. I have used open weather API to get information on real-time weather data",
-          tools: ["Html", "css", "javascript"],
+          tools: ["Html", "css", "javascript", "Vue.js"],
           image: "weather.png",
-          link: "https://yash-weather-project.herokuapp.com/",
+          link: "https://global-weather-report.netlify.app/",
         },
         {
-          title: "Natours app",
+          title: "Invoice app",
           description:
-            "This website is part of a course that I took from Udemy where I used Node. js, MongoDB, and Pug and use other libraries like express and mongoose to build this application I implemented user authorization and authentication and also included the stripe payment system",
-          tools: ["Html", "scss", "javascript", "Node.js", "Pug", "MongoDB"],
-          image: "natours.png",
-          link: "https://yash-natours.herokuapp.com/",
+            "This web app is used for taking the record of the invoice we can create update and delete the invoice data",
+          tools: [
+            "HTML",
+            "Tailwind css",
+            "javascript",
+            "vue-router",
+            "vue js ",
+            "firebase",
+          ],
+          image: "invoice.png",
+          link: "https://invoice-recode.netlify.app/",
         },
         {
           title: "Music player",
@@ -95,7 +102,7 @@ export default {
             "I created this Facebook login landing page with HTML, CSS, and javascript",
           tools: ["Html", "css", "javascript"],
           image: "facebook.png",
-          link: "https://yash-social-media.netlify.app/",
+          link: "https://yash-social-app.netlify.app/",
         },
       ],
     };

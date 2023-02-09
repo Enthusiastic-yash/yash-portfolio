@@ -17,6 +17,10 @@
       </div>
     </div>
     <div class="pointer">
+      <button class="pointer scroll-button">Skills</button>
+    </div>
+    <appSkills></appSkills>
+    <div class="pointer">
       <button class="pointer scroll-button">Projects</button>
     </div>
 
@@ -28,6 +32,7 @@
 import appHeader from "./header";
 import appProject from "./projects";
 import appContact from "./contact";
+import appSkills from "./skills";
 
 export default {
   name: "appHome",
@@ -35,6 +40,7 @@ export default {
     appHeader,
     appProject,
     appContact,
+    appSkills,
   },
   data() {
     return {
