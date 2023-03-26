@@ -99,7 +99,7 @@ export default {
         {
           title: "facebook login",
           description:
-            "I created this Facebook login landing page with HTML, CSS, and javascript",
+            "I created this Facebook login landing page with HTML, CSS, and javascript  Open in Incognito mode",
           tools: ["Html", "css", "javascript"],
           image: "facebook.png",
           link: "https://enthusiastic-yash.github.io/facebook-landing/",
