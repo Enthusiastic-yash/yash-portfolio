@@ -8,7 +8,7 @@
         <ul class="home-nav-items">
           <li class="home-nav-items list">
             <a
-              href="https://drive.google.com/file/d/1uixnUcyI3nZ-4rc56C9iWgl5RvFnCb1I/view?usp=sharing"
+              href="https://drive.google.com/file/d/1jjm_x_QdUIFOmFRn1kYQJaE-AI8m1iLk/view?usp=sharing"
               target="_blank"
               >Resume</a
             >
