@@ -8,7 +8,7 @@
         <ul class="container-contact-items">
           <li class="container-contact list">
             <a
-              href="https://drive.google.com/file/d/1m34c-vjKkHz2nFwyFkBNKRf561LyB1QL/view?usp=sharing"
+              href="https://drive.google.com/file/d/12qdKNLprpo2Zpwon34Dw4c04kGUHYoqp/view?usp=sharing"
               target="_blank"
               >Resume</a
             >
