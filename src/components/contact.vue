@@ -14,7 +14,7 @@
             >
           </li>
           <li class="container-contact list">
-            <a href="https://github.com/yash10005" target="_blank">
+            <a href="https://github.com/Enthusiastic-yash" target="_blank">
               <img src="../assets/images/github.png" alt="github-icon"
             /></a>
           </li>
