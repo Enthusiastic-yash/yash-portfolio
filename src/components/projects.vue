@@ -26,7 +26,7 @@
             <a :href="project.link" target="_blank">
               <button class="container-cta action-btn">Open Site</button></a
             >
-            <a href="#">
+            <a :href="project.code" target="_blank">
               <button class="container-cta action-btn">view code</button></a
             >
           </div>
@@ -48,6 +48,7 @@ export default {
           tools: ["Html", "css", "javascript", "Vue.js"],
           image: "weather.png",
           link: "https://global-weather-report.netlify.app/",
+          code: "https://github.com/Enthusiastic-yash/weather-app"
         },
         {
           title: "Invoice app",
@@ -63,6 +64,7 @@ export default {
           ],
           image: "invoice.png",
           link: "https://invoice-recode.netlify.app/",
+          code: "https://github.com/Enthusiastic-yash/Invoice-app"
         },
         {
           title: "Music player",
@@ -71,6 +73,7 @@ export default {
           tools: ["Html", "scss", "Vue.js", "Firebase"],
           image: "music.png",
           link: "https://music-example-ruddy.vercel.app/",
+          code: "https://github.com/Enthusiastic-yash/Music-app"
         },
         {
           title: "hotel traveling",
@@ -79,6 +82,7 @@ export default {
           tools: ["Html", "scss"],
           image: "hotel.png",
           link: "https://yash-travel.netlify.app/",
+          code: "#"
         },
         {
           title: "outdoor travel",
@@ -87,6 +91,7 @@ export default {
           tools: ["Html", "scss", "javascript"],
           image: "nature.png",
           link: "https://yash-nature.netlify.app/",
+          code : "#"
         },
         {
           title: "property landing",
@@ -95,6 +100,7 @@ export default {
           tools: ["Html", "scss", "javascript"],
           image: "property.png",
           link: "https://yash-property.netlify.app/",
+          code: "#"
         },
         {
           title: "facebook login",
@@ -103,6 +109,7 @@ export default {
           tools: ["Html", "css", "javascript"],
           image: "facebook.png",
           link: "https://enthusiastic-yash.github.io/facebook-landing/",
+          code: "#"
         },
       ],
     };
