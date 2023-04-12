@@ -76,6 +76,15 @@ export default {
           code: "https://github.com/Enthusiastic-yash/Music-app"
         },
         {
+          title: "Ip-Tracker",
+          description:
+            "An IP tracking app is an application that allows users to track the location on the map. The app typically provides real-time data on IP addresses and geographic areas.",
+          tools: ["Html", "Tailwind css", "javascript", "Vue.js"],
+          image: "location.png",
+          link: "https://location-ip-tracker.netlify.app/",
+          code: "https://github.com/Enthusiastic-yash/Ip-Tracker"
+        },
+        {
           title: "hotel traveling",
           description:
             "I created this beautiful Hotel website landing page with Html, and SCSS, with a fully responsive design",
