@@ -7,21 +7,16 @@
         </div>
         <ul class="home-nav-items">
           <li class="home-nav-items list">
-            <a
-              href="https://drive.google.com/file/d/1jjm_x_QdUIFOmFRn1kYQJaE-AI8m1iLk/view?usp=sharing"
-              target="_blank"
-              >Resume</a
-            >
+            <a href="https://drive.google.com/file/d/1zxpmNi1jNG6IEC0F33ZWwCcbcUDsbL28/view?usp=sharing"
+              target="_blank">Resume</a>
           </li>
           <li class="home-nav-items list">
             <a href="https://github.com/Enthusiastic-yash" target="_blank">
-              <img src="../assets/images/github.png" alt="github-icon"
-            /></a>
+              <img src="../assets/images/github.png" alt="github-icon" /></a>
           </li>
           <li class="home-nav-items list">
             <a href="https://www.linkedin.com/in/yash-kashyap/" target="_blank">
-              <img src="../assets/images/linkedin.png" alt="linkedin-icon"
-            /></a>
+              <img src="../assets/images/linkedin.png" alt="linkedin-icon" /></a>
           </li>
         </ul>
       </nav>
@@ -46,6 +41,7 @@ export default {
     filter: brightness(0) invert(1);
   }
 }
+
 .home-nav-items {
   display: flex;
   justify-content: space-between;
