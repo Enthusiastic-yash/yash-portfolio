@@ -46,12 +46,15 @@ html {
   @media (max-width: 1150px) {
     font-size: 54.5%;
   }
+
   @media (max-width: 900px) {
     font-size: 45.5%;
   }
+
   @media (max-width: 750px) {
     font-size: 40%;
   }
+
   @media (max-width: 650px) {
     font-size: 34%;
   }
@@ -73,36 +76,43 @@ body {
     transform: translateY(-50%);
     opacity: 0;
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
 @keyframes transitionOut {
   from {
     transform: translateY(50%);
     opacity: 0;
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
 @keyframes transitionleft {
   from {
     transform: translateX(-10%);
     opacity: 0;
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
   }
 }
+
 @keyframes transitionright {
   from {
     transform: translateX(10%);
     opacity: 0;
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -113,18 +123,23 @@ body {
   0% {
     color: #fc466b;
   }
+
   20% {
     color: #fdbb2d;
   }
+
   40% {
     color: #833ab4;
   }
+
   60% {
     color: #22c1c3;
   }
+
   80% {
     color: #4158d0;
   }
+
   100% {
     color: #623aa2;
   }

@@ -3,10 +3,7 @@
     <div class="container">
       <div class="row" v-for="project in projects" :key="project.id">
         <div class="container-left">
-          <img
-            :src="require(`@/assets/images/${project.image}`)"
-            alt="facebook login"
-          />
+          <img :src="require(`@/assets/images/${project.image}`)" alt="facebook login" />
         </div>
         <div class="container-right">
           <h1 class="container-right title">{{ project.title }}</h1>
@@ -14,21 +11,15 @@
             {{ project.description }}
           </p>
           <h2 class="container-right sub-title">Tool used:</h2>
-          <ul
-            class="container-right items"
-            v-for="list in project.tools"
-            :key="list.id"
-          >
+          <ul class="container-right items" v-for="list in project.tools" :key="list.id">
             <li class="container-right list">{{ list }}</li>
           </ul>
 
           <div class="container-cta">
             <a :href="project.link" target="_blank">
-              <button class="container-cta action-btn">Open Site</button></a
-            >
+              <button class="container-cta action-btn">Open Site</button></a>
             <a :href="project.code" target="_blank">
-              <button class="container-cta action-btn">view code</button></a
-            >
+              <button class="container-cta action-btn">view code</button></a>
           </div>
         </div>
       </div>
@@ -42,82 +33,66 @@ export default {
     return {
       projects: [
         {
-          title: "weather app",
+          title: "Full-Stack Nuxt AI Suite (SaaS)", // Highly improved Title
           description:
-            "I created this website with the help of vue.js to get the weather of any city around the world. I have used open weather API to get information on real-time weather data",
+            "A full-stack Software as a Service (SaaS) platform built with Nuxt 4 and Nuxt UI, offering a versatile collection of AI-powered tools. Key features include background removal, object removal from images using the Cloudinary API, a Resume Reviewer, Article Writer, and a Blog Title Generator. The application utilizes the Gemini/OpenAI API for core AI functionalities, manages user subscriptions via Polar, and ensures data persistence with the Turso database and Drizzle ORM for type-safe operations. Zod is used for robust runtime validation. and Better-Auth for secure authentication",
+          tools: ["Nuxt", "NuxtUI", "JavaScript", "Drizzle (ORM)", "Turso", "Polar (For Payment)", "Gemini/OpenAI API", "Cloudinary API", "Zod", "Better-Auth"],
+          image: "nuxt-ai.png",
+          link: "https://nuxt-ai-xi.vercel.app/",
+          code: "https://github.com/Enthusiastic-yash/Nuxt-ai-sass"
+        },
+        {
+          title: "Global Vue Weather Tracker",
+          description:
+            "Emphasizes real-time data, API integration, and the framework (Vue.js).",
           tools: ["Html", "css", "javascript", "Vue.js"],
           image: "weather.png",
           link: "https://global-weather-report.netlify.app/",
           code: "https://github.com/Enthusiastic-yash/weather-app"
         },
         {
-          title: "Invoice app",
+          title: "Full-Stack Firebase Music Platform",
           description:
-            "This web app is used for taking the record of the invoice we can create update and delete the invoice data",
-          tools: [
-            "HTML",
-            "Tailwind css",
-            "javascript",
-            "vue-router",
-            "vue js ",
-            "firebase",
-          ],
-          image: "invoice.png",
-          link: "https://invoice-recode.netlify.app/",
-          code: "https://github.com/Enthusiastic-yash/Invoice-app"
-        },
-        {
-          title: "Music player",
-          description:
-            "I Made this application with Vue.js and Tailwind CSS, and I used firebase as the backend, User can upload their music and other users can listen as well and also they can comment on them ",
+            "Highlights Full-Stack nature, user interaction (upload, listen, comment), and the key technologies (Vue.js, Tailwind, Firebase).",
           tools: ["Html", "scss", "Vue.js", "Firebase"],
           image: "music.png",
           link: "https://music-example-ruddy.vercel.app/",
           code: "https://github.com/Enthusiastic-yash/Music-app"
         },
         {
-          title: "Ip-Tracker",
+          title: "Real-Time Geo IP Tracker",
           description:
-            "An IP tracking app is an application that allows users to track the location on the map. The app typically provides real-time data on IP addresses and geographic areas.",
+            "Focuses on real-time capability, location tracking, and map visualization.",
           tools: ["Html", "Tailwind css", "javascript", "Vue.js"],
           image: "location.png",
           link: "https://location-ip-tracker.netlify.app/",
           code: "https://github.com/Enthusiastic-yash/Ip-Tracker"
         },
         {
-          title: "hotel traveling",
+          title: "Responsive SCSS Hotel Landing Page",
           description:
-            "I created this beautiful Hotel website landing page with Html, and SCSS, with a fully responsive design",
+            "Stresses responsive design and the use of SCSS for styling.",
           tools: ["Html", "scss"],
           image: "hotel.png",
           link: "https://yash-travel.netlify.app/",
           code: "#"
         },
         {
-          title: "outdoor travel",
+          title: "Animated SCSS/JS Tour Booking Page",
           description:
-            "This one is another Tour booking website landing page with lots of animation without any library ",
+            "Highlights advanced, vanilla animation and the Tour Booking niche.",
           tools: ["Html", "scss", "javascript"],
           image: "nature.png",
           link: "https://yash-nature.netlify.app/",
-          code : "#"
-        },
-        {
-          title: "property landing",
-          description:
-            "Another Property website landing page created with Html, SCSS",
-          tools: ["Html", "scss", "javascript"],
-          image: "property.png",
-          link: "https://yash-property.netlify.app/",
           code: "#"
         },
         {
-          title: "facebook login",
+          title: "Modern Property Showcase Landing Page",
           description:
-            "I created this Facebook login landing page with HTML, CSS, and javascript  Open in Incognito mode",
-          tools: ["Html", "css", "javascript"],
-          image: "facebook.png",
-          link: "https://enthusiastic-yash.github.io/facebook-landing/",
+            "Simple, professional title, emphasizing a showcase purpose.",
+          tools: ["Html", "scss", "javascript"],
+          image: "property.png",
+          link: "https://yash-property.netlify.app/",
           code: "#"
         },
       ],
@@ -137,6 +112,7 @@ export default {
     text-align: center;
   }
 }
+
 .container-left {
   margin-right: 5rem;
 
@@ -162,14 +138,17 @@ export default {
     @media (max-width: 950px) {
       width: 60rem;
     }
+
     @media (max-width: 450px) {
       width: 50rem;
     }
+
     @media (max-width: 350px) {
       width: 40rem;
     }
   }
 }
+
 .container-right {
   width: 300px;
 
@@ -180,6 +159,7 @@ export default {
   @media (max-width: 450px) {
     width: 250px;
   }
+
   @media (max-width: 350px) {
     width: 200px;
   }
@@ -193,6 +173,7 @@ export default {
     margin: 1.5rem 0;
     text-align: start;
   }
+
   .description {
     font-size: 1.6rem;
     text-align: start;
@@ -209,6 +190,7 @@ export default {
     font-size: 1.3rem;
     margin-left: 1.2rem;
   }
+
   .list {
     text-align: start;
     font-size: 1.3rem;

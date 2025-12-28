@@ -34,7 +34,6 @@ export default {
   computed: {
     ...mapGetters(["isplay"]),
   },
-
   created() {
     setTimeout(() => {
       this.$store.dispatch("setPlay");
