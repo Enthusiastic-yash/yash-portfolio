@@ -16,6 +16,10 @@
               <img src="icons/javascript.png" alt="javascript" />
               <span>Java script</span>
             </li>
+            <li>
+              <img src="icons/nuxt.png" alt="nuxt" />
+              <span>Nuxt Js</span>
+            </li>
           </div>
           <div class="skillbox-second">
             <li>
