@@ -7,7 +7,7 @@
         </div>
         <ul class="home-nav-items">
           <li class="home-nav-items list">
-            <a href="https://drive.google.com/file/d/1zxpmNi1jNG6IEC0F33ZWwCcbcUDsbL28/view?usp=sharing"
+            <a href="https://drive.google.com/file/d/1W5ojwOzpuFeYxnHT0J8shQ9cXQCBWwN4/view?usp=sharing"
               target="_blank">Resume</a>
           </li>
           <li class="home-nav-items list">
